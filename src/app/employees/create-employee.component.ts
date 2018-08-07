@@ -28,7 +28,7 @@ export class CreateEmployeeComponent implements OnInit {
       });
 
   }
-  public previewPhot: false;
+  public previewPhot = false;
 
   togglePhotoPreview() {
     this.previewPhot = !this.previewPhot;
