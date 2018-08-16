@@ -1,12 +1,12 @@
-export class Employee{
-    id:number;
-    name:string;
+export class Employee {
+    id: number;
+    name: string;
     gender: string;
-    email?: string; //Optional
-    phoneNumber?:number; //Optional
-    contactPreferences?:string;
+    email?: string;
+    phoneNumber?: number;
+    contactPreferences?: string;
     dateOfBirth: Date;
     department: string;
-    isActive:boolean;
-    photoPath?:string; //Optional
+    isActive: boolean;
+    photoPath?: string;
 }
